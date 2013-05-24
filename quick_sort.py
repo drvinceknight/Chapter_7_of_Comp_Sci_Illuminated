@@ -4,6 +4,7 @@ Script for quick sort
 """
 from __future__ import division
 import random
+#from pdb import set_trace
 
 data = [
     "ant",
@@ -36,6 +37,7 @@ def split(splitVal, first, last):
         if left < right:
             data[left], data[right] = data[right], data[left]
     splitPoint = right
+    data[first], data[splitPoint] = data[splitPoint], data[first]
     return splitPoint
 
 
@@ -44,9 +46,7 @@ def quicksort(first, last):
         splitVal = data[first]
         splitPoint = split(splitVal, first, last)
         quicksort(first, splitPoint - 1)
-        #print "---\n", data
         quicksort(splitPoint + 1, last)
-        #print "***\n", data
 
 
 first = 0
@@ -54,7 +54,6 @@ last = len(data) - 1
 
 
 quicksort(first, last)
-#print "Split value is:", split(data[0], first, last)
 print "Here is the sorted list:"
 for e in data:
     print "\t", e
