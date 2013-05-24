@@ -4,6 +4,7 @@ Script for binary search in a sorted array
 """
 from __future__ import division
 
+# An array:
 data = [
     "ant",
     "cat",
@@ -18,14 +19,18 @@ data = [
     "snake"
 ]
 
+# Making sure the array is sorted (binary search needs a sorted array)
 data.sort()
 
+# The item we are going to search for:
 item = "horse"
 
+# Some basic initialisation
 first = 0
 last = len(data) - 1
 found = False
 
+# The algorithm
 while first <= last and not found:
     middle = int((first + last) / 2)
     if item == data[middle]:
@@ -36,4 +41,3 @@ while first <= last and not found:
         first = middle + 1
 
 print middle
-print data.index(item)
