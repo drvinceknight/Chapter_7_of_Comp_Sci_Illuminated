@@ -6,6 +6,7 @@ from __future__ import division
 from sys import argv
 
 
+# When using recursion, we need to define functions:
 def factorial(N):
     if N == 0:
         return 1
