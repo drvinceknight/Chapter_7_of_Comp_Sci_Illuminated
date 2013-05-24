@@ -28,3 +28,17 @@ Recursion is a very powerful idea in computer science that allows for a major sp
 - `recursive_factorial.py`, a [simple algorithm that calculates the factorial of a number using recursion](http://en.wikipedia.org/wiki/Recursion#Recursion_in_computer_science).
 - `recursive_binary_search_for_sorted_array.py`, a [modification of the above binary search algorithm that makes use of recursion](http://en.wikipedia.org/wiki/Binary_search_algorithm).
 - `quick_sort.py`, an [efficient sorting algorithm](http://en.wikipedia.org/wiki/Quicksort).
+
+# License Information
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0](http://creativecommons.org/licenses/by-sa/3.0/us/) license.  You are free to:
+
+* Share: copy, distribute, and transmit the work,
+* Remix: adapt the work
+
+Under the following conditions:
+
+* Attribution: You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+* Share Alike: If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+
+When attributing this work, please include me.
